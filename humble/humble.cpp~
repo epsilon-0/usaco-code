@@ -1,0 +1,15 @@
+/*
+ID: mathgen2
+PROG: humble
+LANG: C++11
+*/
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+  ifstream fin("humble.in");
+  ofstream fout("humble.out");
+
+}

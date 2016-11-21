@@ -1,0 +1,15 @@
+/*
+ID: mathgen2
+PROG: ttwo
+LANG: C++11
+*/
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+  ifstream fin("ttwo.in");
+  ofstream fout("ttwo.out");
+
+}

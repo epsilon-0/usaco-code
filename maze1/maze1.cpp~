@@ -1,0 +1,15 @@
+/*
+ID: mathgen2
+PROG: maze1
+LANG: C++11
+*/
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+  ifstream fin("maze1.in");
+  ofstream fout("maze1.out");
+
+}

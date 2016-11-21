@@ -1,0 +1,13 @@
+/*
+ID: mathgen2
+PROG: ariprog
+LANG: C++11
+*/
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main(){
+  ifstream fin("ariprog.in");
+  ofstream fout("ariprog.out");
+}

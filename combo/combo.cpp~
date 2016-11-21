@@ -1,0 +1,8 @@
+/*
+ID: mathgen2
+PROG: combo
+LANG: C++11
+*/
+#include <bits/stdc++.h>
+
+using namespace std;

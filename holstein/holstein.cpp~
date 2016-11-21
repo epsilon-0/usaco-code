@@ -1,0 +1,13 @@
+/*
+ID: mathgen2
+PROG: holstein
+LANG: C++11
+*/
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main(){
+  ifstream fin("holstein.in");
+  ofstream fout("holstein.out");
+}

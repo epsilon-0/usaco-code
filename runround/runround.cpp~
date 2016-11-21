@@ -1,0 +1,13 @@
+/*
+ID: mathgen2
+PROG: runround
+LANG: C++11
+*/
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main(){
+  ifstream fin("runround.in");
+  ofstream fout("runround.out");
+}

@@ -1,0 +1,12 @@
+/*
+ID: mathgen2
+PROG: dualpal
+LANG: C++
+*/
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main(){
+  
+}

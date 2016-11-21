@@ -1,0 +1,15 @@
+/*
+ID: mathgen2
+PROG: ratios
+LANG: C++11
+*/
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+  ifstream fin("ratios.in");
+  ofstream fout("ratios.out");
+
+}

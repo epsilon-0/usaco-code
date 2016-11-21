@@ -1,0 +1,32 @@
+/*
+ID: mathgen2
+PROG: fence
+LANG: C++11
+*/
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+vector<int> euler(vector<vector<int> >& graph){
+  vector<int> circuit;
+
+  return circuit;
+}
+
+int main() {
+  ifstream fin("fence.in");
+  ofstream fout("fence.out");
+
+  vector<vector<int> > graph(500, vector<int>());
+  int f, x, y, n=0;
+  fin >> f;
+  for(int i = 0; i < f; i++){
+    fin >> x >> y;
+    x--;y--;
+    graph[x].push_back(y);
+    graph[y].push_back(x);
+    n = max(n, max(x, y));
+  }
+  graph.resize(n+1);
+}

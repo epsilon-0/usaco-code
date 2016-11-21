@@ -1,0 +1,15 @@
+/*
+ID: mathgen2
+PROG: comehome
+LANG: C++11
+*/
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+  ifstream fin("comehome.in");
+  ofstream fout("comehome.out");
+
+}

@@ -1,0 +1,13 @@
+/*
+ID: mathgen2
+PROG: prefix
+LANG: C++11
+*/
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main(){
+  ifstream fin("prefix.in");
+  ofstream fout("prefix.out");
+}

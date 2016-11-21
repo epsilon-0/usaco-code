@@ -1,0 +1,13 @@
+/*
+ID: mathgen2
+PROG: numtri
+LANG: C++11
+*/
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main(){
+  ifstream fin("numtri.in");
+  ofstream fout("numtri.out");
+}

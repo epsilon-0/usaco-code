@@ -1,0 +1,75 @@
+/*
+ID: mathgen2
+PROG: msquare
+LANG: C++11
+*/
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int parent[12345679];
+char prev[12345679];
+
+int doB(int n){
+  return n/10 + (n%10)*10000000;
+}
+
+int doA(int n){
+  return n/10000 + (n%10000)*10000;
+}
+
+int doC(int n){
+  vector<int> dig;
+  while(n>0){
+    dig.push_back(n%10);
+    n/=10;
+  }
+  int temp = dig
+  return 1;
+}
+
+void bfs(){
+  for(int i = 0; i < 12345679; i++){
+    parent[i] = -1;
+    prev[i] = '';
+  }
+  queue<int> que;
+  que.push(12345678);
+  int n, v;
+  while(!que.empty()){
+    n = que.top(); que.pop();
+    v = doA(n);
+    if(parent[v] == -1){
+      parent[v] = n;
+      prev[v] = 'A';
+      que.push(v);
+    }
+    v = doB(n);
+    if(parent[v] == -1){
+      parent[v] = n;
+      prev[v] = 'B';
+      que.push(v);
+    }
+    v = doC(n);
+    if(parent[v] == -1){
+      parent[v] = n;
+      prev[v] = 'C';
+      que.push(v);
+    }
+  }
+}
+
+int main() {
+  ifstream fin("msquare.in");
+  ofstream fout("msquare.out");
+  int source = 12345678;
+  int sink = 0;
+  for(int i = 0; i < 8; i++){
+    int d;
+    cin >> d;
+    sink = sink*10 + d;
+  }
+
+  bfs(source);
+}

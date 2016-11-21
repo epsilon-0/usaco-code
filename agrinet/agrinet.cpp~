@@ -1,0 +1,15 @@
+/*
+ID: mathgen2
+PROG: agrinet
+LANG: C++11
+*/
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+  ifstream fin("agrinet.in");
+  ofstream fout("agrinet.out");
+
+}
