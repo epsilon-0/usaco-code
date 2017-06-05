@@ -1,4 +1,7 @@
 #!/bin/bash
+
+# C++ init for usaco
+
 mkdir $1
 mFile="$1/$1.cpp"
 echo "/*" >> $mFile
